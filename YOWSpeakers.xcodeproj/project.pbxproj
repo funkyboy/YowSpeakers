@@ -13,6 +13,8 @@
 		D3CC5BFC19B7817B00C78CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CC5BFA19B7817B00C78CA3 /* Main.storyboard */; };
 		D3CC5BFE19B7817B00C78CA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CC5BFD19B7817B00C78CA3 /* Images.xcassets */; };
 		D3CC5C0A19B7817B00C78CA3 /* YOWSpeakersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC5C0919B7817B00C78CA3 /* YOWSpeakersTests.swift */; };
+		D3E0C16119B783AA00B6A66A /* fetchSpeakers.js in Resources */ = {isa = PBXBuildFile; fileRef = D3E0C16019B783AA00B6A66A /* fetchSpeakers.js */; };
+		D3E0C16319B7B9D900B6A66A /* Speaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0C16219B7B9D900B6A66A /* Speaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D3CC5C0319B7817B00C78CA3 /* YOWSpeakersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOWSpeakersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CC5C0819B7817B00C78CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3CC5C0919B7817B00C78CA3 /* YOWSpeakersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOWSpeakersTests.swift; sourceTree = "<group>"; };
+		D3E0C16019B783AA00B6A66A /* fetchSpeakers.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fetchSpeakers.js; sourceTree = "<group>"; };
+		D3E0C16219B7B9D900B6A66A /* Speaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		D3CC5BF119B7817B00C78CA3 /* YOWSpeakers */ = {
 			isa = PBXGroup;
 			children = (
+				D3E0C16019B783AA00B6A66A /* fetchSpeakers.js */,
 				D3CC5BF419B7817B00C78CA3 /* AppDelegate.swift */,
 				D3CC5BF619B7817B00C78CA3 /* MasterViewController.swift */,
 				D3CC5BF819B7817B00C78CA3 /* DetailViewController.swift */,
 				D3CC5BFA19B7817B00C78CA3 /* Main.storyboard */,
 				D3CC5BFD19B7817B00C78CA3 /* Images.xcassets */,
 				D3CC5BF219B7817B00C78CA3 /* Supporting Files */,
+				D3E0C16219B7B9D900B6A66A /* Speaker.swift */,
 			);
 			path = YOWSpeakers;
 			sourceTree = "<group>";
@@ -194,6 +200,7 @@
 			files = (
 				D3CC5BFC19B7817B00C78CA3 /* Main.storyboard in Resources */,
 				D3CC5BFE19B7817B00C78CA3 /* Images.xcassets in Resources */,
+				D3E0C16119B783AA00B6A66A /* fetchSpeakers.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +221,7 @@
 				D3CC5BF919B7817B00C78CA3 /* DetailViewController.swift in Sources */,
 				D3CC5BF719B7817B00C78CA3 /* MasterViewController.swift in Sources */,
 				D3CC5BF519B7817B00C78CA3 /* AppDelegate.swift in Sources */,
+				D3E0C16319B7B9D900B6A66A /* Speaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +407,7 @@
 				D3CC5C0F19B7817B00C78CA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3CC5C1019B7817B00C78CA3 /* Build configuration list for PBXNativeTarget "YOWSpeakersTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +416,7 @@
 				D3CC5C1219B7817B00C78CA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
